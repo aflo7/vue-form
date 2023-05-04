@@ -165,7 +165,7 @@ select {
     margin-top: 20px;
 }
 
-.row-4 div {
+.row-4 input {
     flex-grow: 1;
 }
 
