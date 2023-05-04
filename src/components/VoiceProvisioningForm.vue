@@ -37,18 +37,11 @@
                 <input type="text" placeholder="Last Name" style="flex: 1" />
             </div>
 
-            <div
-                style="
-                    display: flex;
-                    gap: 25px;
-                    padding: 10px;
-                    margin-top: 20px;
-                "
-            >
-                <input type="text" placeholder="Address" style="flex-grow: 1" />
-                <input type="text" placeholder="City" style="flex-grow: 1" />
-                <input type="text" placeholder="State" style="flex-grow: 1" />
-                <input type="text" placeholder="Zip" style="flex-grow: 1" />
+            <div class="row-4">
+                <input type="text" placeholder="Address" />
+                <input type="text" placeholder="City" />
+                <input type="text" placeholder="State" />
+                <input type="text" placeholder="Zip" />
             </div>
 
             <div
@@ -137,7 +130,7 @@
 }
 
 form {
-  width: 1040px;
+    width: 1040px;
 }
 
 input {
@@ -165,6 +158,17 @@ select {
     padding: 20px;
 }
 
+.row-4 {
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.row-4 div {
+    flex-grow: 1;
+}
+
 .provision-btn-wrapper > button {
     background-color: rgb(35, 29, 108);
     color: white;
@@ -179,7 +183,7 @@ select {
     outline: 1px solid rgb(237, 129, 39);
     border-top: 10px solid rgb(246, 205, 165);
     color: rgb(237, 129, 39);
-    width: 65%;
+    width: 60%;
     display: flex;
     flex-direction: row;
     padding: 10px;
