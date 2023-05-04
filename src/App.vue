@@ -1,7 +1,5 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 import VoiceProvisioningForm from './components/VoiceProvisioningForm.vue'
-
 </script>
 
 <template>
